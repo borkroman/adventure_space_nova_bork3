@@ -1,11 +1,11 @@
 ﻿- type: gameMap
-  id: AdventureCluster
-  mapName: 'Cluster'
-  mapPath: /Maps/_Adventure/Adventurecluster.yml
+  id: XenoCluster
+  mapName: 'Xeno Cluster'
+  mapPath: /Maps/_Adventure/XenoCluster.yml
   minPlayers: 0
   maxPlayers: 35
   stations:
-    advCluster:
+    advClusterXeno:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
@@ -40,15 +40,15 @@
             MedicalDoctor: [ 2, 2 ]
             MedicalIntern: [ 2, 2 ]
             #science
-            ResearchDirector: [ 1, 1 ]
-            Scientist: [ 3, 3 ]
-            ResearchAssistant: [ 2, 2 ]
+#            ResearchDirector: [ 1, 1 ] DEAD по РП
+#            Scientist: [ 3, 3 ] DEAD по РП
+#            ResearchAssistant: [ 2, 2 ] DEAD по РП
             Borg: [ 6, 6 ] # Adventure
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
             Detective: [ 1, 1 ]
-            SecurityOfficer: [ 3, 3 ]
+            SecurityOfficer: [ 5, 5 ]
             SecurityCadet: [ 2, 2 ]
             #supply
             Quartermaster: [ 1, 1 ]
@@ -63,4 +63,3 @@
             Blueshield: [ 1, 1 ]
             Brigmedic: [ 1, 1 ]
             StationAi: [ 1, 1 ]
-            Paramedic: [ 1, 1 ]
